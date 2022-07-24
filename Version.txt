@@ -1,0 +1,8 @@
+{
+  "version":"2022.3.28",
+  "aarch64":["https://gitee.com/xxsc/auto_spy/raw/fe3d8a1ebf60944d32093c945bcf694df691901e/auto_spy_bot.py",
+		"https://gitee.com/xxsc/auto_spy/raw/fe3d8a1ebf60944d32093c945bcf694df691901e/auto_spy.so_aarch64"],
+  "other":["https://gitee.com/xxsc/auto_spy/raw/fe3d8a1ebf60944d32093c945bcf694df691901e/auto_spy_bot.py",
+	     "https://gitee.com/xxsc/auto_spy/raw/fe3d8a1ebf60944d32093c945bcf694df691901e/auto_spy.so_x86_64"],
+  "filename":["auto_spy_bot.py","auto_spy.so"]
+}

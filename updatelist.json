@@ -1,0 +1,55 @@
+{
+    "spy": [
+        {
+            "Name": "SPY",
+            "Version": 1658647162,
+            "Note": "spy\u4e3b\u7a0b\u5e8f",
+            "Url": "https://github.com/xieshang/AutoSpy/raw/master/auto_spy.so_aarch64|https://github.com/xieshang/AutoSpy/raw/master/auto_spy.so_x86_64|https://github.com/xieshang/AutoSpy/raw/master/auto_spy.so_x86_64_2",
+            "Path": ".|.|."
+        }
+    ],
+    "plugins": [
+        {
+            "Name": "\u4eac\u4e1c\u89e3\u6790",
+            "Version": 1657001006,
+            "Note": "\u6307\u4ee4[jx]\n\u89e3\u6790\u4eac\u4e1c\u53e3\u4ee4\u548cUrl\uff0c\u56de\u590d\u5f85\u89e3\u6790\u5185\u5bb9\u5373\u53ef\uff0c\u89e3\u6790\u8bf7\u53ea\u88c5\u4e00\u4e2a",
+            "Url": "https://github.com/xieshang/AutoSpy/raw/master/plugins/jiexi.py",
+            "Path": "./plugins"
+        },
+        {
+            "Name": "\u8d44\u4ea7\u67e5\u8be2",
+            "Version": 1656902282,
+            "Note": "\u3010\u67e5\u8d44\u4ea7\u3011\n  \u6307\u4ee4[\u8d44\u4ea7]\n  \u67e5\u8be2\u7b2cN\u4e2a\u6709\u6548CK\u7684\u8d44\u4ea7\uff1a<\u8d44\u4ea7 n> <\u8d44\u4ea7 n-m>\n\n\u67e5\u4eca\u65e5\u8c46\u5b50\u8be6\u60c5\uff1a\n  <\u8c46 n>  <\u8c46 n-m>",
+            "Url": "https://github.com/xieshang/AutoSpy/raw/master/plugins/arm/bean.cpython-36m-aarch64-linux-gnu.so|https://github.com/xieshang/AutoSpy/raw/master/plugins/x86/bean.cpython-38-x86_64-linux-gnu.so|https://github.com/xieshang/AutoSpy/raw/master/plugins/x86_tx/bean.cpython-36m-x86_64-linux-gnu.so",
+            "Path": "./plugins/arm|./plugins/x86|./plugins/x86_tx"
+        },
+        {
+            "Name": "\u7b7e\u5230\u8f6c\u7801",
+            "Version": 1656947804,
+            "Note": "\u6307\u4ee4[\u7b7e]\n\u56de\u590d\u63d0\u53d6\u7b7e\u5230\u4fe1\u606f",
+            "Url": "https://github.com/xieshang/AutoSpy/raw/master/plugins/arm/qiandao.cpython-36m-aarch64-linux-gnu.so|https://github.com/xieshang/AutoSpy/raw/master/plugins/x86/qiandao.cpython-38-x86_64-linux-gnu.so|https://github.com/xieshang/AutoSpy/raw/master/plugins/x86_tx/qiandao.cpython-36m-x86_64-linux-gnu.so",
+            "Path": "./plugins/arm|./plugins/x86|./plugins/x86_tx"
+        },
+        {
+            "Name": "\u5fae\u5b9a\u5236",
+            "Version": 1653831633,
+            "Note": "\u6b64\u529f\u80fd\u4ec5\u9650\u8d85\u7ea7\u6388\u6743\u4f7f\u7528",
+            "Url": "https://github.com/xieshang/AutoSpy/raw/master/plugins/arm/wdz.cpython-36m-aarch64-linux-gnu.so|https://github.com/xieshang/AutoSpy/raw/master/plugins/x86/wdz.cpython-38-x86_64-linux-gnu.so|https://github.com/xieshang/AutoSpy/raw/master/plugins/x86_tx/wdz.cpython-36m-x86_64-linux-gnu.so",
+            "Path": "./plugins/arm|./plugins/x86|./plugins/x86_tx"
+        },
+        {
+            "Name": "618\u81a8\u80c0",
+            "Version": 1654261850,
+            "Note": "\u6b64\u529f\u80fd\u4ec5\u9650\u8d85\u7ea7\u6388\u6743\u4f7f\u7528\uff0c<PZ n \u53e3\u4ee4> <PZ stop>",
+            "Url": "https://github.com/xieshang/AutoSpy/raw/master/plugins/arm/pz.cpython-36m-aarch64-linux-gnu.so|https://github.com/xieshang/AutoSpy/raw/master/plugins/x86/pz.cpython-38-x86_64-linux-gnu.so|https://github.com/xieshang/AutoSpy/raw/master/plugins/x86_tx/pz.cpython-36m-x86_64-linux-gnu.so",
+            "Path": "./plugins/arm|./plugins/x86|./plugins/x86_tx"
+        },
+        {
+            "Name": "\u4eac\u7c89\u67e5\u8be2",
+            "Version": 1654132121,
+            "Note": "\u67e5\u8be2\u4eac\u7c89(windfgg\u4f6c): <jfen>",
+            "Url": "https://github.com/xieshang/AutoSpy/raw/master/plugins/arm/jingfen.cpython-36m-aarch64-linux-gnu.so|https://github.com/xieshang/AutoSpy/raw/master/plugins/x86/jingfen.cpython-38-x86_64-linux-gnu.so|https://github.com/xieshang/AutoSpy/raw/master/plugins/x86_tx/jingfen.cpython-36m-x86_64-linux-gnu.so",
+            "Path": "./plugins/arm|./plugins/x86|./plugins/x86_tx"
+        }
+    ]
+}

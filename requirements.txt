@@ -1,0 +1,7 @@
+PyYAML>=5.4.1
+requests[socks]>=2.25.1
+httpx>=0.21.3
+Telethon>=1.24.0
+python-socks[asyncio]>=1.2.4
+asyncio
+snowland-smx

@@ -1,0 +1,8 @@
+list:
+  # kscx: "快手(by windfgg)：[查询]ks <ck idx>\n    [添加CK]ksck <ck>\n    [提现]kstx <ck idx>\n"
+  wdz: "微定制: <wdz>"
+  qiandao: "签到批量转换: 回复消息<签到>"
+  bean: "查询资产: <资产 n> or <资产 n-m>"
+  jdjiexi: "京东自动解析"
+  jiexi: "解析: 回复 jx 进行解析"
+

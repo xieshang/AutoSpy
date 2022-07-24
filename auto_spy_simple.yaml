@@ -1,0 +1,55 @@
+# 授权信息
+Aauthentication: 111112222333sdfafdsf
+# 青龙相关信息
+QingLong:
+  # 青龙id
+  Client_ID: asdfsdff
+  # 青龙secret
+  Client_Secret: safsdfsaf
+  # 多容器选择切换间隔
+  Container_Wait: 3
+  # 任务结束后等待多久再次执行
+  WaitTime: 10
+  # 青龙url
+  url: http://192.168.1.250:5700
+
+# TG信息
+Telegram:
+  # TG api hash
+  api_hash: api_hash
+  # TG api id
+  api_id: api_id
+  # 监听频道、群id
+  listen_CH:
+  - -10016
+  # 你的日志输出群ID(有人形傻妞)，或者傻妞机器人ID
+  log_id: -1001
+  # 管理员id
+  master_id:
+  - 188111
+  # socket5代理IP，国内机必须填写，否则不能登录
+  proxy_ip: ''
+  # 代理port
+  proxy_port: 11223
+
+# 脚本配置
+js_config:
+
+# CJ组队任务
+- Container:
+  # 多容器配置，当需要第1个容器运行时，填1，全部配置填a，若分别多个容器，可填[1,3]
+  - []
+  # 要设置的环境变量名称，配合脚本使用
+  Env: jd_cjzd
+  # 要监听的变量参数，可配合Env实现环境变量的转换，因为不同频道的变量都有可能不同
+  KeyWord:
+  - - 频道1变量A1
+  - - 频道2变量A2
+  # 任务名字
+  Name: cj组队
+  # 青龙脚本的关键词，必须为唯一搜索到的关键词，否则将自动取第一个脚本作为运行
+  Script: jd_team60.js
+  # 脚本运行超时时间，暂不支持
+  TimeOut: 0
+  # 配置完环境变量等待多久再运行脚本
+  Wait: 3

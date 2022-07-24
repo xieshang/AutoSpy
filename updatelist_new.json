@@ -1,0 +1,50 @@
+{
+    "spy":
+    [
+        {
+            "Name": "SPY",
+            "Version": "2022.5.31",
+            "Note": "spy主程序",
+            "Url": "https://icanfamil.coding.net/p/autospy/d/autospy/git/raw/master/auto_spy.so_aarch64|https://icanfamil.coding.net/p/autospy/d/autospy/git/raw/master/auto_spy.so_x86_64|https://icanfamil.coding.net/p/autospy/d/autospy/git/raw/master/auto_spy.so_x86_64_2",
+            "Path": ".|.|."
+        }
+    ],
+    "plugins":
+    [
+        {
+            "Name": "京东解析",
+            "Version": "2022.5.15",
+            "Note": "指令[jx]\n解析京东口令和Url，回复待解析内容即可",
+            "Url": "https://icanfamil.coding.net/p/autospy/d/autospy/git/raw/master/plugins/jiexi.py",
+            "Path": "./plugins"
+        },
+        {
+            "Name": "资产查询",
+            "Version": "2022.5.23",
+            "Note": "【查资产】\n  指令[资产]\n  查询第N个有效CK的资产：<资产 n> <资产 n-m>\n\n查今日豆子详情：\n  <豆 n>  <豆 n-m>",
+            "Url": "https://icanfamil.coding.net/p/autospy/d/autospy/git/raw/master/plugins/arm/bean.cpython-36m-aarch64-linux-gnu.so|https://icanfamil.coding.net/p/autospy/d/autospy/git/raw/master/plugins/x86/bean.cpython-38-x86_64-linux-gnu.so|https://icanfamil.coding.net/p/autospy/d/autospy/git/raw/master/plugins/x86_tx/bean.cpython-36m-x86_64-linux-gnu.so",
+            "Path": "./plugins/arm|./plugins/x86|./plugins/x86_tx"
+        },
+        {
+            "Name": "签到转码",
+            "Version": "2022.5.26",
+            "Note": "指令[签]\n回复提取签到信息",
+            "Url": "https://icanfamil.coding.net/p/autospy/d/autospy/git/raw/master/plugins/arm/qiandao.cpython-36m-aarch64-linux-gnu.so|https://icanfamil.coding.net/p/autospy/d/autospy/git/raw/master/plugins/x86/qiandao.cpython-38-x86_64-linux-gnu.so|https://icanfamil.coding.net/p/autospy/d/autospy/git/raw/master/plugins/x86_tx/qiandao.cpython-36m-x86_64-linux-gnu.so",
+            "Path": "./plugins/arm|./plugins/x86|./plugins/x86_tx"
+        },
+        {
+            "Name": "微定制",
+            "Version": "2022.5.17",
+            "Note": "此功能仅限超级授权使用",
+            "Url": "https://icanfamil.coding.net/p/autospy/d/autospy/git/raw/master/plugins/arm/wdz.cpython-36m-aarch64-linux-gnu.so|https://icanfamil.coding.net/p/autospy/d/autospy/git/raw/master/plugins/x86/wdz.cpython-38-x86_64-linux-gnu.so|https://icanfamil.coding.net/p/autospy/d/autospy/git/raw/master/plugins/x86_tx/wdz.cpython-36m-x86_64-linux-gnu.so",
+            "Path": "./plugins/arm|./plugins/x86|./plugins/x86_tx"
+        },
+        {
+            "Name": "618膨胀",
+            "Version": "2022.5.29",
+            "Note": "此功能仅限超级授权使用，<PZ n 口令> <PZ stop>",
+            "Url": "https://icanfamil.coding.net/p/autospy/d/autospy/git/raw/master/plugins/arm/pz.cpython-36m-aarch64-linux-gnu.so|https://icanfamil.coding.net/p/autospy/d/autospy/git/raw/master/plugins/x86/pz.cpython-38-x86_64-linux-gnu.so|https://icanfamil.coding.net/p/autospy/d/autospy/git/raw/master/plugins/x86_tx/pz.cpython-36m-x86_64-linux-gnu.so",
+            "Path": "./plugins/arm|./plugins/x86|./plugins/x86_tx"
+        }
+    ]
+}

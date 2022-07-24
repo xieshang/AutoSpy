@@ -1,0 +1,9 @@
+#!/usr/bin/with-contenv bash
+
+cd /autospy
+if [[ $RUN_AS_ROOT != true ]]; then
+    exec s6-setuidgid auto_spy python -u auto_spy_bot.py
+else
+    exec s6-setuidgid root python -u auto_spy_bot.py
+fi
+
