@@ -2,7 +2,7 @@
     "spy": [
         {
             "Name": "SPY",
-            "Version": 1658647162,
+            "Version": 1658846324,
             "Note": "spy\u4e3b\u7a0b\u5e8f",
             "Url": "https://github.com/xieshang/AutoSpy/raw/master/auto_spy.so_aarch64|https://github.com/xieshang/AutoSpy/raw/master/auto_spy.so_x86_64|https://github.com/xieshang/AutoSpy/raw/master/auto_spy.so_x86_64_2",
             "Path": ".|.|."
