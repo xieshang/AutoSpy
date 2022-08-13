@@ -2,7 +2,7 @@
     "spy": [
         {
             "Name": "SPY",
-            "Version": 1660218442,
+            "Version": 1660220668,
             "Note": "spy主程序",
             "Url": "https://github.com/xieshang/AutoSpy/raw/master/auto_spy.so_aarch64|https://github.com/xieshang/AutoSpy/raw/master/auto_spy.so_x86_64|https://github.com/xieshang/AutoSpy/raw/master/auto_spy.so_x86_64_2",
             "Path": ".|.|."
@@ -25,7 +25,7 @@
         },
         {
             "Name": "签到转码",
-            "Version": 1656947804,
+            "Version": 1660400117,
             "Note": "指令[签]%n回复提取签到信息",
             "Url": "https://github.com/xieshang/AutoSpy/raw/master/plugins/arm/qiandao.cpython-36m-aarch64-linux-gnu.so|https://github.com/xieshang/AutoSpy/raw/master/plugins/x86/qiandao.cpython-38-x86_64-linux-gnu.so|https://github.com/xieshang/AutoSpy/raw/master/plugins/x86_tx/qiandao.cpython-36m-x86_64-linux-gnu.so",
             "Path": "./plugins/arm|./plugins/x86|./plugins/x86_tx"
