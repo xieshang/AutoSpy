@@ -18,7 +18,7 @@
         },
         {
             "Name": "资产查询",
-            "Version": 1660800371,
+            "Version": 1660804017,
             "Note": "【查资产】%n  指令[资产]%n  查询第N个有效CK的资产：<资产 n> <资产 n-m>%n%n查今日豆子详情：%n  <豆 n>  <豆 n-m>",
             "Url": "https://github.com/xieshang/AutoSpy/raw/master/plugins/arm/bean.cpython-36m-aarch64-linux-gnu.so|https://github.com/xieshang/AutoSpy/raw/master/plugins/x86/bean.cpython-38-x86_64-linux-gnu.so|https://github.com/xieshang/AutoSpy/raw/master/plugins/x86_tx/bean.cpython-36m-x86_64-linux-gnu.so",
             "Path": "./plugins/arm|./plugins/x86|./plugins/x86_tx"
