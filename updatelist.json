@@ -2,53 +2,53 @@
     "spy": [
         {
             "Name": "SPY",
-            "Version": 1660800371,
+            "Version": 1661408299,
             "Note": "spy主程序",
-            "Url": "https://github.com/xieshang/AutoSpy/raw/master/auto_spy.so_aarch64|https://github.com/xieshang/AutoSpy/raw/master/auto_spy.so_x86_64|https://github.com/xieshang/AutoSpy/raw/master/auto_spy.so_x86_64_2",
+            "Url": "https://raw.githubusercontent.com/xieshang/AutoSpy/master/auto_spy.so_aarch64|https://raw.githubusercontent.com/xieshang/AutoSpy/master/auto_spy.so_x86_64|https://raw.githubusercontent.com/xieshang/AutoSpy/master/auto_spy.so_x86_64_2",
             "Path": ".|.|."
         }
     ],
     "plugins": [
         {
             "Name": "京东解析",
-            "Version": 1660027139,
+            "Version": 1661239431,
             "Note": "指令[jx]%n解析京东口令和Url，回复待解析内容即可，解析请只装一个",
-            "Url": "https://github.com/xieshang/AutoSpy/raw/master/plugins/arm/jiexi.cpython-36m-aarch64-linux-gnu.so|https://github.com/xieshang/AutoSpy/raw/master/plugins/x86/jiexi.cpython-38-x86_64-linux-gnu.so|https://github.com/xieshang/AutoSpy/raw/master/plugins/x86_tx/jiexi.cpython-36m-x86_64-linux-gnu.so",
+            "Url": "https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/arm/jiexi.cpython-36m-aarch64-linux-gnu.so|https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/x86/jiexi.cpython-38-x86_64-linux-gnu.so|https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/x86_tx/jiexi.cpython-36m-x86_64-linux-gnu.so",
             "Path": "./plugins/arm|./plugins/x86|./plugins/x86_tx"
         },
         {
             "Name": "资产查询",
-            "Version": 1660804017,
+            "Version": 1661414698,
             "Note": "【查资产】%n  指令[资产]%n  查询第N个有效CK的资产：<资产 n> <资产 n-m>%n%n查今日豆子详情：%n  <豆 n>  <豆 n-m>",
-            "Url": "https://github.com/xieshang/AutoSpy/raw/master/plugins/arm/bean.cpython-36m-aarch64-linux-gnu.so|https://github.com/xieshang/AutoSpy/raw/master/plugins/x86/bean.cpython-38-x86_64-linux-gnu.so|https://github.com/xieshang/AutoSpy/raw/master/plugins/x86_tx/bean.cpython-36m-x86_64-linux-gnu.so",
+            "Url": "https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/arm/bean.cpython-36m-aarch64-linux-gnu.so|https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/x86/bean.cpython-38-x86_64-linux-gnu.so|https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/x86_tx/bean.cpython-36m-x86_64-linux-gnu.so",
             "Path": "./plugins/arm|./plugins/x86|./plugins/x86_tx"
         },
         {
             "Name": "签到转码",
-            "Version": 1660400117,
+            "Version": 1661239431,
             "Note": "指令[签]%n回复提取签到信息",
-            "Url": "https://github.com/xieshang/AutoSpy/raw/master/plugins/arm/qiandao.cpython-36m-aarch64-linux-gnu.so|https://github.com/xieshang/AutoSpy/raw/master/plugins/x86/qiandao.cpython-38-x86_64-linux-gnu.so|https://github.com/xieshang/AutoSpy/raw/master/plugins/x86_tx/qiandao.cpython-36m-x86_64-linux-gnu.so",
+            "Url": "https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/arm/qiandao.cpython-36m-aarch64-linux-gnu.so|https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/x86/qiandao.cpython-38-x86_64-linux-gnu.so|https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/x86_tx/qiandao.cpython-36m-x86_64-linux-gnu.so",
             "Path": "./plugins/arm|./plugins/x86|./plugins/x86_tx"
         },
         {
             "Name": "微定制",
             "Version": 1653831633,
             "Note": "此功能仅限超级授权使用",
-            "Url": "https://github.com/xieshang/AutoSpy/raw/master/plugins/arm/wdz.cpython-36m-aarch64-linux-gnu.so|https://github.com/xieshang/AutoSpy/raw/master/plugins/x86/wdz.cpython-38-x86_64-linux-gnu.so|https://github.com/xieshang/AutoSpy/raw/master/plugins/x86_tx/wdz.cpython-36m-x86_64-linux-gnu.so",
+            "Url": "https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/arm/wdz.cpython-36m-aarch64-linux-gnu.so|https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/x86/wdz.cpython-38-x86_64-linux-gnu.so|https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/x86_tx/wdz.cpython-36m-x86_64-linux-gnu.so",
             "Path": "./plugins/arm|./plugins/x86|./plugins/x86_tx"
         },
         {
             "Name": "618膨胀",
-            "Version": 1654261850,
+            "Version": 1661239431,
             "Note": "此功能仅限超级授权使用，<PZ n 口令> <PZ stop>",
-            "Url": "https://github.com/xieshang/AutoSpy/raw/master/plugins/arm/pz.cpython-36m-aarch64-linux-gnu.so|https://github.com/xieshang/AutoSpy/raw/master/plugins/x86/pz.cpython-38-x86_64-linux-gnu.so|https://github.com/xieshang/AutoSpy/raw/master/plugins/x86_tx/pz.cpython-36m-x86_64-linux-gnu.so",
+            "Url": "https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/arm/pz.cpython-36m-aarch64-linux-gnu.so|https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/x86/pz.cpython-38-x86_64-linux-gnu.so|https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/x86_tx/pz.cpython-36m-x86_64-linux-gnu.so",
             "Path": "./plugins/arm|./plugins/x86|./plugins/x86_tx"
         },
         {
             "Name": "京粉查询",
-            "Version": 1654132121,
+            "Version": 1661239431,
             "Note": "查询京粉(windfgg佬): <jfen>",
-            "Url": "https://github.com/xieshang/AutoSpy/raw/master/plugins/arm/jingfen.cpython-36m-aarch64-linux-gnu.so|https://github.com/xieshang/AutoSpy/raw/master/plugins/x86/jingfen.cpython-38-x86_64-linux-gnu.so|https://github.com/xieshang/AutoSpy/raw/master/plugins/x86_tx/jingfen.cpython-36m-x86_64-linux-gnu.so",
+            "Url": "https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/arm/jingfen.cpython-36m-aarch64-linux-gnu.so|https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/x86/jingfen.cpython-38-x86_64-linux-gnu.so|https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/x86_tx/jingfen.cpython-36m-x86_64-linux-gnu.so",
             "Path": "./plugins/arm|./plugins/x86|./plugins/x86_tx"
         }
     ]
