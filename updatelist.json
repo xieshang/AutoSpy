@@ -17,13 +17,6 @@
             "Path": "./plugins/arm|./plugins/x86|./plugins/x86_tx"
         },
         {
-            "Name": "资产查询",
-            "Version": 1661419363,
-            "Note": "【查资产】%n  指令[资产]%n  查询第N个有效CK的资产：<资产 n> <资产 n-m>%n%n查今日豆子详情：%n  <豆 n>  <豆 n-m>",
-            "Url": "https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/arm/bean.cpython-36m-aarch64-linux-gnu.so|https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/x86/bean.cpython-38-x86_64-linux-gnu.so|https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/x86_tx/bean.cpython-36m-x86_64-linux-gnu.so",
-            "Path": "./plugins/arm|./plugins/x86|./plugins/x86_tx"
-        },
-        {
             "Name": "签到转码",
             "Version": 1661239431,
             "Note": "指令[签]%n回复提取签到信息",
