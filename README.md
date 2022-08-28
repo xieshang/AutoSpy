@@ -18,114 +18,69 @@
 
 ## 安装教程
 
-1.  准备好docker环境；
+1. 在linux里准备好python3.6和pip3环境，安装好screen便宜后台运行；
 
-2.  进入终端，在你想要存储SPY信息的文件夹下运行一键安装，仅需打开一次，然后执行强制升级
+2. 拉去代码：
    ```
-   wget -O autospy https://github.com/xieshang/AutoSpy/raw/master/docker.sh && chmod +x autospy && ./autospy
-   ```
-   强制升级：
-   ```
-      cd auto_spy_data/autospy && bash <(curl -s -L https://github.com/xieshang/AutoSpy/raw/master/spy_update.sh)
-   ```
+   # 建文件夹
+   mkdir autospy
+   cd autospy
+   # 拉取代码
+   git clone  --depth=1  https://github.com/xieshang/AutoSpy.git .
    
-   第一次运行完成后，按提示修改配置文件，特别是TG和青龙的配置
+   # 复制配置文件样例，如有自己的配置文件，文件放进来就可以了
+   cp auto_spy_simple.yaml auto_spy.yaml
+   ```
 
-3. 修改完配置后，再次运行一键脚本，记住，要回到你刚才的目录下运行，否则又会建一个SPY的配置文件。
+3. 启动一次脚本，生效最新配置：
+
+   ```
+   # 安装依赖
+   pip3 install --user -U asyncio  pyyaml telethon snowland-smx httpx pysocks requests
    
-4. 提示输入电话号码的时候，请在前面加上"+86"，如果不是中国的手机，那么就别用SPY了，没意思。
-   TG的登录过程与人形一致，可以参考一些人形教程
+   # 启动一次脚本
+   python3 auto_spy_bot.py
+   
+   #然后ctrl + c 结束掉
+   ```
+
+4. 修改配置文件<auto_spy.yaml>，多看看auto_spy_simple.yaml里的样例说明，基本都在上面了（单变量、多变量、变量归一），这里重点说一下几个控制参数。
+
+   ```
+   * OverdueTime
+   变量过期时间，即在第一次变量触发后，过多少秒后同一变量可以再次触发；
+   若无此需求，设置为0，以防被恶意触发线报；
+   * Wait
+   当线报处于队列时，此参数用于动态控制延迟多久后再次执行下一个线报，用于降低黑IP，单位为秒，每个脚本之间的运行间隔：WaitTime+Wait；
+   ```
+
+5. 登录tg
+
+   ```
+   python3 auto_spy_bot.py
+   手机号码：+86xxxxxxx.....   记得带头
+   ```
+
+## SPY指令
+
+1、spy ?：查看spy支持的指令列表
+
+2、**spy**：查看队列情况，10秒后自动撤回；
+3、**spy 重启**：重启SPY；
+4、**spy 升级**：升级到最新的SPY；
+
+........
 
 
-## 配置文件修改
-
-1.  配置文件<auto_spy.yaml>内容
-   ````
-# 授权信息  在群内发送 "/SPY 授权"  机器人将自动私发给你
-Aauthentication: 111112222333sdfafdsf
-# 青龙相关信息
-QingLong:
-  # 只需提供任务权限即可
-  # 青龙id
-  Client_ID: asdfsdff
-  # 青龙secret
-  Client_Secret: safsdfsaf
-  # 多容器选择切换间隔
-  Container_Wait: 3
-  # 任务结束后等待多久再次执行
-  WaitTime: 10
-  # 青龙url
-  url: http://192.168.1.250:5700
-
-# TG信息
-Telegram:
-  # TG api hash
-  api_hash: api_hash
-  # TG api id
-  api_id: api_id
-  # 监听频道、群id
-  listen_CH:
-  - -10016
-  # 你的日志输出群ID(有人形傻妞)，或者傻妞机器人ID
-  log_id: -1001
-  # 管理员id
-  master_id:
-  - 188111
-  # socket5代理IP，国内机必须填写，否则不能登录
-  proxy_ip: ''
-  # 代理port
-  proxy_port: 11223
-
-# 脚本配置
-js_config:
-
-# CJ组队任务
-- Container:
-  # 傻妞多容器配置，当需要第1个容器运行时，填1，全部配置填a，若分别多个容器，可填[1,3]，一个容器就留空
-  - []
-  # 要设置的环境变量名称，配合脚本使用
-  Env: jd_cjzd
-  # 要监听的变量参数，可配合Env实现环境变量的转换，因为不同频道的变量都有可能不同
-  KeyWord:
-  - - 频道1变量A1
-  - - 频道2变量A2
-  # 任务名字
-  Name: cj组队
-  # 青龙脚本的关键词，必须为唯一搜索到的关键词，否则将自动取第一个脚本作为运行
-  Script: jd_team60.js
-  # 脚本运行超时时间，暂不支持
-  TimeOut: 0
-  # 配置完环境变量等待多久再运行脚本
-  Wait: 3
-
-   ````
-
-#### SPY指令
-1、**spy**：查看队列情况，10秒后自动撤回；
-2、**spy 重启**：重启SPY；
-3、**spy 升级**：升级到最新的SPY；
-
-
-#### 问题排查
+## 问题排查
 * 登录TG的时候没跳出来要求输入电话？
 ```
-    请确认配置文件的API和hash是否填写正确；
+请确认配置文件的API和hash是否填写正确；
 ```
 
-* SPY是否已经成功启动？
+* 发spy没反应？
 ```
-在命令行输入： docker logs auto_spy
-
-查看日志是否报错
-如果日志看不懂，可以先复制一下，到百度翻译一下再提问
+1、确认masterid是不是你自己的？
+2、spy有没有在运行呢？如果是screen后台
 ```
 
-* 群内可以看到自己鉴权并且很快撤回，说明已经成功，但是发送spy没反应？
-```
-请确认是设置错了管理员id？
-```
-
-* 脚本怎么配置？
-```
-别问我，偷撸脚本自己找，公开的脚本去对应频道看看也都知道怎么写了。
-```
