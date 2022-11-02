@@ -60,7 +60,7 @@
         },
         {
             "Name": "赚钱大赢家",
-            "Version": 1667368779,
+            "Version": 1667375466,
             "Note": "DYJ <口令/url>\nDYJ STOP文件\nCK文件存spy根目录mck.txt，一行一个",
             "Url": "https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/arm/zqdyj.cpython-36m-aarch64-linux-gnu.so|https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/x86/zqdyj.cpython-38-x86_64-linux-gnu.so|https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/x86_tx/zqdyj.cpython-36m-x86_64-linux-gnu.so",
             "Path": "./plugins/arm|./plugins/x86|./plugins/x86_tx"
