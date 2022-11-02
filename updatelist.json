@@ -57,6 +57,13 @@
             "Note": "查询京粉(windfgg佬): <jfen>",
             "Url": "https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/arm/jingfen.cpython-36m-aarch64-linux-gnu.so|https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/x86/jingfen.cpython-38-x86_64-linux-gnu.so|https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/x86_tx/jingfen.cpython-36m-x86_64-linux-gnu.so",
             "Path": "./plugins/arm|./plugins/x86|./plugins/x86_tx"
+        },
+        {
+            "Name": "赚钱大赢家",
+            "Version": 1667368779,
+            "Note": "DYJ <口令/url>\nDYJ STOP文件\nCK文件存spy根目录mck.txt，一行一个",
+            "Url": "https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/arm/zqdyj.cpython-36m-aarch64-linux-gnu.so|https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/x86/zqdyj.cpython-38-x86_64-linux-gnu.so|https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/x86_tx/zqdyj.cpython-36m-x86_64-linux-gnu.so",
+            "Path": "./plugins/arm|./plugins/x86|./plugins/x86_tx"
         }
     ]
 }
