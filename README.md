@@ -18,9 +18,9 @@
 
 ## 安装教程
 
-1. 在linux里准备好python3.6和pip3环境，安装好screen便宜后台运行；
+1. 在linux里准备好python3.6和pip3环境，安装好screen以便后台运行；
 
-2. 拉去代码：
+2. 拉取代码：
    ```
    # 建文件夹
    mkdir autospy
@@ -32,7 +32,7 @@
    cp auto_spy_simple.yaml auto_spy.yaml
    ```
 
-3. 启动一次脚本，生效最新配置：
+3. 启动一次脚本，生成最新配置：
 
    ```
    # 安装依赖
