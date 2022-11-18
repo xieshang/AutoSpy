@@ -2,7 +2,7 @@
     "spy": [
         {
             "Name": "SPY",
-            "Version": 1667569272,
+            "Version": 1668739890,
             "Note": "spy主程序",
             "Url": "https://raw.githubusercontent.com/xieshang/AutoSpy/master/auto_spy.so_aarch64|https://raw.githubusercontent.com/xieshang/AutoSpy/master/auto_spy.so_x86_64|https://raw.githubusercontent.com/xieshang/AutoSpy/master/auto_spy.so_x86_64_2",
             "Path": ".|.|."
@@ -25,7 +25,7 @@
         },
         {
             "Name": "资产查询",
-            "Version": 1667020798,
+            "Version": 1668758692,
             "Note": "【查资产】%n  指令[资产]%n  查询第N个有效CK的资产：<资产 n> <资产 n-m>%n%n查今日豆子详情：%n  <豆 n>  <豆 n-m>",
             "Url": "https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/arm/bean.cpython-36m-aarch64-linux-gnu.so|https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/x86/bean.cpython-38-x86_64-linux-gnu.so|https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/x86_tx/bean.cpython-36m-x86_64-linux-gnu.so",
             "Path": "./plugins/arm|./plugins/x86|./plugins/x86_tx"
@@ -53,14 +53,14 @@
         },
         {
             "Name": "京粉查询",
-            "Version": 1667133571,
+            "Version": 1668739890,
             "Note": "查询京粉(windfgg佬): <jfen>",
             "Url": "https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/arm/jingfen.cpython-36m-aarch64-linux-gnu.so|https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/x86/jingfen.cpython-38-x86_64-linux-gnu.so|https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/x86_tx/jingfen.cpython-36m-x86_64-linux-gnu.so",
             "Path": "./plugins/arm|./plugins/x86|./plugins/x86_tx"
         },
         {
             "Name": "赚钱大赢家",
-            "Version": 1667995379,
+            "Version": 1668759129,
             "Note": "DYJ <口令/url>\nDYJ STOP文件\nCK文件存spy根目录mck.txt，一行一个",
             "Url": "https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/arm/zqdyj.cpython-36m-aarch64-linux-gnu.so|https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/x86/zqdyj.cpython-38-x86_64-linux-gnu.so|https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/x86_tx/zqdyj.cpython-36m-x86_64-linux-gnu.so",
             "Path": "./plugins/arm|./plugins/x86|./plugins/x86_tx"
