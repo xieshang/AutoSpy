@@ -18,48 +18,66 @@
 
 ## 安装教程
 
-1. 在linux里准备好python3.6和pip3环境，安装好screen便宜后台运行；
+参考教程1（faker写的）：https://thin-hill-428.notion.site/Spy-abac16b82bec43c3845071b8fe81361f
 
-2. 拉去代码：
-   ```
-   # 建文件夹
-   mkdir autospy
-   cd autospy
-   # 拉取代码
-   git clone  --depth=1  https://github.com/xieshang/AutoSpy.git .
-   
-   # 复制配置文件样例，如有自己的配置文件，文件放进来就可以了
-   cp auto_spy_simple.yaml auto_spy.yaml
-   ```
+参考教程2（小白照着faker教程写的）：https://www.kejiwanjia.com/jiaocheng/115954.html
 
-3. 启动一次脚本，生效最新配置：
+下面是我写的简要教程：
 
-   ```
-   # 安装依赖
-   pip3 install --user -U asyncio  pyyaml telethon snowland-smx httpx pysocks requests
-   
-   # 启动一次脚本
-   python3 auto_spy_bot.py
-   
-   #然后ctrl + c 结束掉
-   ```
+```
+新装的自己按这个流程摸索吧：
 
-4. 修改配置文件<auto_spy.yaml>，多看看auto_spy_simple.yaml里的样例说明，基本都在上面了（单变量、多变量、变量归一），这里重点说一下几个控制参数。
+准备好以下东西：
 
-   ```
-   * OverdueTime
-   变量过期时间，即在第一次变量触发后，过多少秒后同一变量可以再次触发；
-   若无此需求，设置为0，以防被恶意触发线报；
-   * Wait
-   当线报处于队列时，此参数用于动态控制延迟多久后再次执行下一个线报，用于降低黑IP，单位为秒，每个脚本之间的运行间隔：WaitTime+Wait；
-   ```
+* 可以访问的青龙ip、id、密钥
+* spy授权码，没有授权的申请试用，在群内发送[/spy 试用]和[/spy 授权]即可获取授权码，超级授权也用试用授权码
+* 一个外国籍服务器，国内的自己想办法折腾
+* 加入spy授权群，否则无法完成授权功能
+https://t.me/spy_auth
 
-5. 登录tg
 
-   ```
-   python3 auto_spy_bot.py
-   手机号码：+86xxxxxxx.....   记得带头
-   ```
+开始：
+
+1、一键，运行一次就行，那个登录的时候ctrl+c跳过：
+wget -O autospy https://raw.githubusercontent.com/xieshang/AutoSpy/master/docker.sh && chmod +x autospy && ./autospy
+
+进入容器：
+docker exec -it auto_spy bash
+ 
+强制升级：
+bash <(curl -s -L https://raw.githubusercontent.com/xieshang/AutoSpy/master/spy_update.sh)
+
+
+3、登录
+
+1、把启动脚本换个名字
+docker exec -it auto_spy bash
+mv auto_spy_bot.py auto_spy_bot2.py
+exit
+
+2、重启容器，使之不自动启动
+docker restart auto_spy
+
+3、手动启动
+docker exec -it auto_spy bash
+pip uninstall telethon
+pip install telethon==1.24.0
+pip3 install --user snowland-smx
+
+调试启动:
+python3 auto_spy_bot2.py
+
+登录，改配置测试，直到你满意为止
+
+后台启动:
+python3 auto_spy_bot2.py &
+
+4、没问题了，换回自动启动
+mv auto_spy_bot2.py auto_spy_bot.py
+exit
+
+docker restart auto_spy
+```
 
 ## SPY指令
 
