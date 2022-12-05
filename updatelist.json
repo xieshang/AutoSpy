@@ -2,7 +2,7 @@
     "spy": [
         {
             "Name": "SPY",
-            "Version": 1670245699,
+            "Version": 1670251779,
             "Note": "spy主程序",
             "Url": "https://raw.githubusercontent.com/xieshang/AutoSpy/master/auto_spy.so_aarch64|https://raw.githubusercontent.com/xieshang/AutoSpy/master/auto_spy.so_x86_64|https://raw.githubusercontent.com/xieshang/AutoSpy/master/auto_spy.so_x86_64_2",
             "Path": ".|.|."
@@ -25,7 +25,7 @@
         },
         {
             "Name": "资产查询",
-            "Version": 1668758692,
+            "Version": 1670248840,
             "Note": "【查资产】%n  指令[资产]%n  查询第N个有效CK的资产：<资产 n> <资产 n-m>%n%n查今日豆子详情：%n  <豆 n>  <豆 n-m>",
             "Url": "https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/arm/bean.cpython-36m-aarch64-linux-gnu.so|https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/x86/bean.cpython-38-x86_64-linux-gnu.so|https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/x86_tx/bean.cpython-36m-x86_64-linux-gnu.so",
             "Path": "./plugins/arm|./plugins/x86|./plugins/x86_tx"
@@ -53,7 +53,7 @@
         },
         {
             "Name": "京粉查询",
-            "Version": 1668739890,
+            "Version": 1670248840,
             "Note": "查询京粉(windfgg佬): <jfen>",
             "Url": "https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/arm/jingfen.cpython-36m-aarch64-linux-gnu.so|https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/x86/jingfen.cpython-38-x86_64-linux-gnu.so|https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/x86_tx/jingfen.cpython-36m-x86_64-linux-gnu.so",
             "Path": "./plugins/arm|./plugins/x86|./plugins/x86_tx"
