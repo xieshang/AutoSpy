@@ -46,7 +46,7 @@
         },
         {
             "Name": "618膨胀",
-            "Version": 1667398625,
+            "Version": 1672061465,
             "Note": "此功能仅限超级授权使用，<PZ n 口令> <PZ stop>",
             "Url": "https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/arm/pz.cpython-36m-aarch64-linux-gnu.so|https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/x86/pz.cpython-38-x86_64-linux-gnu.so|https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/x86_tx/pz.cpython-36m-x86_64-linux-gnu.so",
             "Path": "./plugins/arm|./plugins/x86|./plugins/x86_tx"
