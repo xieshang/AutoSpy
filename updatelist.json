@@ -2,7 +2,7 @@
     "spy": [
         {
             "Name": "SPY",
-            "Version": 1676121117,
+            "Version": 1676895515,
             "Note": "spy主程序",
             "Url": "https://raw.githubusercontent.com/xieshang/AutoSpy/master/auto_spy.so_aarch64|https://raw.githubusercontent.com/xieshang/AutoSpy/master/auto_spy.so_x86_64|https://raw.githubusercontent.com/xieshang/AutoSpy/master/auto_spy.so_x86_64_2",
             "Path": ".|.|."
@@ -18,14 +18,14 @@
         },
         {
             "Name": "京东解析",
-            "Version": 1675866808,
+            "Version": 1676895515,
             "Note": "指令[jx]\n解析京东口令和Url，回复待解析内容即可，解析请只装一个",
             "Url": "https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/arm/jiexi.cpython-36m-aarch64-linux-gnu.so|https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/x86/jiexi.cpython-38-x86_64-linux-gnu.so|https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/x86_tx/jiexi.cpython-36m-x86_64-linux-gnu.so",
             "Path": "./plugins/arm|./plugins/x86|./plugins/x86_tx"
         },
         {
             "Name": "资产查询",
-            "Version": 1673750135,
+            "Version": 1676186638,
             "Note": "【查资产】\n  指令[资产]\n  查询第N个有效CK的资产：<资产 n> <资产 n-m>\n\n查今日豆子详情：\n  <豆 n>  <豆 n-m>",
             "Url": "https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/arm/bean.cpython-36m-aarch64-linux-gnu.so|https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/x86/bean.cpython-38-x86_64-linux-gnu.so|https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/x86_tx/bean.cpython-36m-x86_64-linux-gnu.so",
             "Path": "./plugins/arm|./plugins/x86|./plugins/x86_tx"
@@ -53,7 +53,7 @@
         },
         {
             "Name": "京粉查询",
-            "Version": 1672280901,
+            "Version": 1676895515,
             "Note": "查询京粉(windfgg佬): <jfen>",
             "Url": "https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/arm/jingfen.cpython-36m-aarch64-linux-gnu.so|https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/x86/jingfen.cpython-38-x86_64-linux-gnu.so|https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/x86_tx/jingfen.cpython-36m-x86_64-linux-gnu.so",
             "Path": "./plugins/arm|./plugins/x86|./plugins/x86_tx"
