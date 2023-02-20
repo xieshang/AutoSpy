@@ -2,7 +2,7 @@
     "spy": [
         {
             "Name": "SPY",
-            "Version": 1676895515,
+            "Version": 1676898935,
             "Note": "spy主程序",
             "Url": "https://raw.githubusercontent.com/xieshang/AutoSpy/master/auto_spy.so_aarch64|https://raw.githubusercontent.com/xieshang/AutoSpy/master/auto_spy.so_x86_64|https://raw.githubusercontent.com/xieshang/AutoSpy/master/auto_spy.so_x86_64_2",
             "Path": ".|.|."
@@ -18,7 +18,7 @@
         },
         {
             "Name": "京东解析",
-            "Version": 1676895515,
+            "Version": 1676902385,
             "Note": "指令[jx]\n解析京东口令和Url，回复待解析内容即可，解析请只装一个",
             "Url": "https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/arm/jiexi.cpython-36m-aarch64-linux-gnu.so|https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/x86/jiexi.cpython-38-x86_64-linux-gnu.so|https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/x86_tx/jiexi.cpython-36m-x86_64-linux-gnu.so",
             "Path": "./plugins/arm|./plugins/x86|./plugins/x86_tx"
