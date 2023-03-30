@@ -71,7 +71,7 @@
             "Note": "人形插件，发送<.help> or <。help>查看帮助，搬运自PagerMaid，侵删",
             "Url": "https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/renxing.py",
             "Path": "./plugins"
-        }
+        },
         {
             "Name": "扫线报",
             "Version": 1680176739,
