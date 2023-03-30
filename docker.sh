@@ -11,7 +11,7 @@ elif [[ $get_arch == "i686" ]];then
     arch='x86'
 else
     echo "unknown!!"
-    exit 0
+    exit 0 
 fi
 if [[ $(docker ps|grep auto_spy|awk '{print $10}') == "auto_spy" ]]; then
 	echo "登录成功后，请按CTRL+C退出"

@@ -2,7 +2,7 @@
     "spy": [
         {
             "Name": "SPY",
-            "Version": 1678687855,
+            "Version": 1680174873,
             "Note": "spy主程序",
             "Url": "https://raw.githubusercontent.com/xieshang/AutoSpy/master/auto_spy.so_aarch64|https://raw.githubusercontent.com/xieshang/AutoSpy/master/auto_spy.so_x86_64_2",
             "Path": ".|."
@@ -11,7 +11,7 @@
     "plugins": [
         {
             "Name": "ikuai",
-            "Version": 1673750135,
+            "Version": 1680059269,
             "Note": "[ip]查当前ip；\n[重播]ikuai重播",
             "Url": "https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/arm/ikuai.cpython-36m-aarch64-linux-gnu.so|https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/x86_tx/ikuai.cpython-36m-x86_64-linux-gnu.so",
             "Path": "./plugins/arm|./plugins/x86_tx"
@@ -64,6 +64,20 @@
             "Note": "DYJ <口令/url>\nDYJ STOP文件\nCK文件存spy根目录mck.txt，一行一个",
             "Url": "https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/arm/zqdyj.cpython-36m-aarch64-linux-gnu.so|https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/x86_tx/zqdyj.cpython-36m-x86_64-linux-gnu.so",
             "Path": "./plugins/arm|./plugins/x86_tx"
+        },
+        {
+            "Name": "人行",
+            "Version": 1679378322,
+            "Note": "人形插件，发送<.help> or <。help>查看帮助，搬运自PagerMaid，侵删",
+            "Url": "https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/renxing.py",
+            "Path": "./plugins"
         }
+        {
+            "Name": "扫线报",
+            "Version": 1680176739,
+            "Note": "[scan ?]帮助\n[scan start]开始扫线报",
+            "Url": "https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/arm/scan.cpython-36m-aarch64-linux-gnu.so|https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/x86_tx/scan.cpython-36m-x86_64-linux-gnu.so",
+            "Path": "./plugins/arm|./plugins/x86_tx"
+        },
     ]
 }
