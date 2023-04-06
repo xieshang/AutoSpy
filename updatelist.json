@@ -2,7 +2,7 @@
     "spy": [
         {
             "Name": "SPY",
-            "Version": 1680616834,
+            "Version": 1680750690,
             "Note": "spy主程序",
             "Url": "https://raw.githubusercontent.com/xieshang/AutoSpy/master/auto_spy.so_aarch64|https://raw.githubusercontent.com/xieshang/AutoSpy/master/auto_spy.so_x86_64_2",
             "Path": ".|."
@@ -66,7 +66,7 @@
             "Path": "./plugins/arm|./plugins/x86_tx"
         },
         {
-            "Name": "人行",
+            "Name": "人形",
             "Version": 1679378322,
             "Note": "人形插件，发送<.help> or <。help>查看帮助，搬运自PagerMaid，侵删",
             "Url": "https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/renxing.py",
