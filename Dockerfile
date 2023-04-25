@@ -1,4 +1,4 @@
-FROM python:3.6.15-slim-buster
+FROM python:3.7.16-slim-buster
 ARG S6_VERSION=v2.2.0.3
 # ARG S6_ARCH=amd64
 ARG S6_ARCH=aarch64
@@ -14,7 +14,7 @@ SHELL ["/bin/bash", "-c"]
 WORKDIR $WORK_DIR
 ENV LANG C.UTF-8
 RUN source ~/.bashrc \
-    && sed -i "s@http://\(deb\|security\).debian.org@https://mirrors.aliyun.com@g" /etc/apt/sources.list \
+    ## && sed -i "s@http://\(deb\|security\).debian.org@https://mirrors.aliyun.com@g" /etc/apt/sources.list \
     && apt update \
     && apt upgrade -y \
     && apt install --no-install-recommends -y \
