@@ -36,7 +36,7 @@ RUN source ~/.bashrc \
    && pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple \
     && python -m pip install --upgrade pip \
     ## 克隆仓库
-    && git clone --depth=1 -b master https://e.coding.net/icanfamil/autospy/autospy.git $WORK_DIR \
+    && git clone --depth=1 -b master https://github.com/xieshang/AutoSpy.git $WORK_DIR \
     && rm -rf .git \
     ## 复制s6启动脚本
     && cp -r s6/* / \
