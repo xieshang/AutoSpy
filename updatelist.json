@@ -2,7 +2,7 @@
     "spy": [
         {
             "Name": "SPY",
-            "Version": 1685259657,
+            "Version": 1686292397,
             "Note": "spy主程序",
             "Url": "https://raw.githubusercontent.com/xieshang/AutoSpy/master/auto_spy.so_aarch64|https://raw.githubusercontent.com/xieshang/AutoSpy/master/auto_spy.so_x86_64_2",
             "Path": ".|."
@@ -11,7 +11,7 @@
     "plugins": [
         {
             "Name": "ikuai",
-            "Version": 1680836488,
+            "Version": 1685783473,
             "Note": "[ip]查当前ip；\n[重播]ikuai重播",
             "Url": "https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/arm/ikuai.cpython-36m-aarch64-linux-gnu.so|https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/x86_tx/ikuai.cpython-36m-x86_64-linux-gnu.so",
             "Path": "./plugins/arm|./plugins/x86_tx"
@@ -74,7 +74,7 @@
         },
         {
             "Name": "扫线报",
-            "Version": 1684745372,
+            "Version": 1686124007,
             "Note": "[scan ?]帮助\n[scan start]开始扫线报",
             "Url": "https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/arm/scan.cpython-36m-aarch64-linux-gnu.so|https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/x86_tx/scan.cpython-36m-x86_64-linux-gnu.so",
             "Path": "./plugins/arm|./plugins/x86_tx"
