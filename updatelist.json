@@ -2,7 +2,7 @@
     "spy": [
         {
             "Name": "SPY",
-            "Version": 1686298186,
+            "Version": 1686555937,
             "Note": "spy主程序",
             "Url": "https://raw.githubusercontent.com/xieshang/AutoSpy/master/auto_spy.so_aarch64|https://raw.githubusercontent.com/xieshang/AutoSpy/master/auto_spy.so_x86_64_2",
             "Path": ".|."
@@ -18,7 +18,7 @@
         },
         {
             "Name": "京东解析",
-            "Version": 1684072083,
+            "Version": 1686302982,
             "Note": "指令[jx]\n解析京东口令和Url，回复待解析内容即可，解析请只装一个",
             "Url": "https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/arm/jiexi.cpython-36m-aarch64-linux-gnu.so|https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/x86_tx/jiexi.cpython-36m-x86_64-linux-gnu.so",
             "Path": "./plugins/arm|./plugins/x86_tx"
@@ -74,7 +74,7 @@
         },
         {
             "Name": "扫线报",
-            "Version": 1686124008,
+            "Version": 1686808277,
             "Note": "[scan ?]帮助\n[scan start]开始扫线报",
             "Url": "https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/arm/scan.cpython-36m-aarch64-linux-gnu.so|https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/x86_tx/scan.cpython-36m-x86_64-linux-gnu.so",
             "Path": "./plugins/arm|./plugins/x86_tx"
