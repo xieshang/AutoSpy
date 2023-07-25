@@ -53,7 +53,7 @@
         },
         {
             "Name": "京粉查询",
-            "Version": 1687225642,
+            "Version": 1690284196,
             "Note": "查询京粉(windfgg佬): <jfen>",
             "Url": "https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/arm/jingfen.cpython-36m-aarch64-linux-gnu.so|https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/x86_tx/jingfen.cpython-36m-x86_64-linux-gnu.so",
             "Path": "./plugins/arm|./plugins/x86_tx"
@@ -74,7 +74,7 @@
         },
         {
             "Name": "扫线报",
-            "Version": 1689561552,
+            "Version": 1690254688,
             "Note": "[scan ?]帮助\n[scan start]开始扫线报",
             "Url": "https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/arm/scan.cpython-36m-aarch64-linux-gnu.so|https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/x86_tx/scan.cpython-36m-x86_64-linux-gnu.so",
             "Path": "./plugins/arm|./plugins/x86_tx"
