@@ -11,7 +11,7 @@
     "plugins": [
         {
             "Name": "ikuai",
-            "Version": 1685783473,
+            "Version": 1690891277,
             "Note": "[ip]查当前ip；\n[重播]ikuai重播",
             "Url": "https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/arm/ikuai.cpython-36m-aarch64-linux-gnu.so|https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/x86_tx/ikuai.cpython-36m-x86_64-linux-gnu.so",
             "Path": "./plugins/arm|./plugins/x86_tx"
