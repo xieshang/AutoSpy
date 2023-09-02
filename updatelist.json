@@ -2,7 +2,7 @@
     "spy": [
         {
             "Name": "SPY",
-            "Version": 1689561285,
+            "Version": 1692164098,
             "Note": "spy主程序",
             "Url": "https://raw.githubusercontent.com/xieshang/AutoSpy/master/auto_spy.so_aarch64|https://raw.githubusercontent.com/xieshang/AutoSpy/master/auto_spy.so_x86_64_2",
             "Path": ".|."
@@ -25,14 +25,14 @@
         },
         {
             "Name": "资产查询",
-            "Version": 1689236468,
+            "Version": 1692170297,
             "Note": "【查资产】\n  指令[资产]\n  查询第N个有效CK的资产：<资产 n> <资产 n-m>\n\n查今日豆子详情：\n  <豆 n>  <豆 n-m>",
             "Url": "https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/arm/bean.cpython-36m-aarch64-linux-gnu.so|https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/x86_tx/bean.cpython-36m-x86_64-linux-gnu.so",
             "Path": "./plugins/arm|./plugins/x86_tx"
         },
         {
             "Name": "签到转码",
-            "Version": 1681719829,
+            "Version": 1692070432,
             "Note": "指令[签]\n回复提取签到信息",
             "Url": "https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/arm/qiandao.cpython-36m-aarch64-linux-gnu.so|https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/x86_tx/qiandao.cpython-36m-x86_64-linux-gnu.so",
             "Path": "./plugins/arm|./plugins/x86_tx"
