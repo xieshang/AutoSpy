@@ -32,7 +32,7 @@
         },
         {
             "Name": "签到转码",
-            "Version": 1694678185,
+            "Version": 1702348925,
             "Note": "指令[签]\n回复提取签到信息",
             "Url": "https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/arm/qiandao.cpython-36m-aarch64-linux-gnu.so|https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/x86_tx/qiandao.cpython-36m-x86_64-linux-gnu.so",
             "Path": "./plugins/arm|./plugins/x86_tx"
