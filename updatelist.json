@@ -2,7 +2,7 @@
     "spy": [
         {
             "Name": "SPY",
-            "Version": 1699975760,
+            "Version": 1704440145,
             "Note": "spy主程序",
             "Url": "https://raw.githubusercontent.com/xieshang/AutoSpy/master/auto_spy.so_aarch64|https://raw.githubusercontent.com/xieshang/AutoSpy/master/auto_spy.so_x86_64_2",
             "Path": ".|."
@@ -25,7 +25,7 @@
         },
         {
             "Name": "资产查询",
-            "Version": 1696815173,
+            "Version": 1704798144,
             "Note": "【查资产】\n  指令[资产]\n  查询第N个有效CK的资产：<资产 n> <资产 n-m>\n\n查今日豆子详情：\n  <豆 n>  <豆 n-m>",
             "Url": "https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/arm/bean.cpython-36m-aarch64-linux-gnu.so|https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/x86_tx/bean.cpython-36m-x86_64-linux-gnu.so",
             "Path": "./plugins/arm|./plugins/x86_tx"
@@ -77,6 +77,13 @@
             "Version": 1690254688,
             "Note": "[scan ?]帮助\n[scan start]开始扫线报",
             "Url": "https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/arm/scan.cpython-36m-aarch64-linux-gnu.so|https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/x86_tx/scan.cpython-36m-x86_64-linux-gnu.so",
+            "Path": "./plugins/arm|./plugins/x86_tx"
+        },
+        {
+            "Name": "转发",
+            "Version": 1704508286,
+            "Note": "转发,修改plugins/forward.json，发送<spy 加载配置>重新加载配置实时生效，无需重启",
+            "Url": "https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/arm/forward.cpython-36m-aarch64-linux-gnu.so|https://raw.githubusercontent.com/xieshang/AutoSpy/master/plugins/x86_tx/forward.cpython-36m-x86_64-linux-gnu.so",
             "Path": "./plugins/arm|./plugins/x86_tx"
         }
     ]
